@@ -1,0 +1,127 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+/* Header */
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('header-background.jpg') no-repeat center center/cover;
+    color: white;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header-content {
+    max-width: 800px;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 1rem;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #45a049;
+}
+
+/* Sections */
+.section {
+    padding: 4rem 2rem;
+}
+
+.section h2 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.highlight {
+    background-color: #f0f0f0;
+}
+
+/* Features Grid */
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2rem;
+}
+
+.feature {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.feature:hover {
+    transform: translateY(-10px);
+}
+
+.feature img {
+    width: 80px;
+    margin-bottom: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background: #333;
+    color: white;
+    font-size: 0.9rem;
+}
+
+/* About Us Section Image Styling */
+#about img {
+    width: 50%; /* Adjust the width as needed for size */
+    height: auto;
+    display: block;
+    margin: 1.5rem auto; /* Center the image horizontally */
+    border-radius: 10px;
+}
+
+/* General Section Image Styling */
+.section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
